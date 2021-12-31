@@ -7,6 +7,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+  
   - type: input
     id: contact
     attributes:
@@ -15,6 +16,7 @@ body:
       placeholder: email@example.com
     validations:
       required: false
+      
   - type: dropdown
     id: software
     attributes:
@@ -30,27 +32,8 @@ body:
         - Other (please describe below)
     validations:
       required: true
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
-      required: true
-
-  - type: textarea
-    id: how-to-make-it-happen
-    attributes:
-      label: What made it happen?
-      description: What steps can cause the bug?
-      placeholder: Tell us what you did that casued the bug
-      value: "I loaded the page!"
-    validations:
-      required: true
-
-  - type: dropdown
+      
+   - type: dropdown
     id: version
     attributes:
       label: Version
@@ -72,12 +55,34 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
+        
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+
+  - type: textarea
+    id: how-to-make-it-happen
+    attributes:
+      label: What made it happen?
+      description: What steps can cause the bug?
+      placeholder: Tell us what you did that casued the bug
+      value: "I loaded the page!"
+    validations:
+      required: true
+
   - type: textarea
     id: logs
     attributes:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
+      
   - type: checkboxes
     id: terms
     attributes:
