@@ -30,6 +30,31 @@ body:
         - Other (please describe below)
     validations:
       required: true
+      
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version of our software are you running?
+      multiple: true
+      options:
+        - Production (Deployed on a .org domain)
+        - Development (Deployed on a .dev domain)
+        - Offline (Some Library, Tool, or Image not on the web)
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+        
   - type: textarea
     id: what-happened
     attributes:
@@ -50,28 +75,6 @@ body:
     validations:
       required: true
 
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      multiple: true
-      options:
-        - Production (Deployed on a .org domain)
-        - Development (Deployed on a .dev domain)
-        - Offline (Some Library, Tool, or Image not on the web)
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
   - type: textarea
     id: logs
     attributes:
