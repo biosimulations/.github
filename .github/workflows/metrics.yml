@@ -19,7 +19,6 @@ jobs:
           config_timezone: America/New_York
           plugin_achievements: yes
           plugin_achievements_secrets: yes
-          plugin_discussions: yes
           plugin_habits: yes
           plugin_habits_charts: yes
           plugin_habits_facts: yes
