@@ -388,7 +388,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                             <path fill-rule="evenodd" d="M2.343 13.657A8 8 0 1113.657 2.343 8 8 0 012.343 13.657zM6.03 4.97a.75.75 0 00-1.06 1.06L6.94 8 4.97 9.97a.75.75 0 101.06 1.06L8 9.06l1.97 1.97a.75.75 0 101.06-1.06L9.06 8l1.97-1.97a.75.75 0 10-1.06-1.06L8 6.94 6.03 4.97z"/>
                         </svg>
-                        API returned 429
+                        API returned 500 (FAILED_DOCUMENT_REQUEST)
                     </div>
                 </section>
             </div>
@@ -443,8 +443,8 @@
                         05
                     </div>
                     <div class="entry">
-                        <span class="value">6</span>
-                        <div class="bar" style="height: 17.647058823529413px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                        <span class="value">5</span>
+                        <div class="bar" style="height: 14.705882352941178px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                         06
                     </div>
                     <div class="entry">
@@ -453,8 +453,8 @@
                         07
                     </div>
                     <div class="entry">
-                        <span class="value">5</span>
-                        <div class="bar" style="height: 14.705882352941178px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                        <span class="value">6</span>
+                        <div class="bar" style="height: 17.647058823529413px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                         08
                     </div>
                     <div class="entry">
@@ -559,8 +559,8 @@
                             Wed
                         </div>
                         <div class="entry">
-                            <span class="value">8</span>
-                            <div class="bar" style="height: 10.81081081081081px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">9</span>
+                            <div class="bar" style="height: 12.162162162162163px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             Thu
                         </div>
                         <div class="entry">
@@ -569,8 +569,8 @@
                             Fri
                         </div>
                         <div class="entry">
-                            <span class="value">28</span>
-                            <div class="bar" style="height: 37.83783783783784px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                            <span class="value">27</span>
+                            <div class="bar" style="height: 36.486486486486484px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                             Sat
                         </div>
                     </div>
@@ -1084,7 +1084,7 @@
                 </div>
             </section>
             <footer>
-                <span>Last updated 27 Jan 2022, 08:12:14 (timezone America/New_York) with lowlighter/metrics@3.18.0</span>
+                <span>Last updated 27 Jan 2022, 09:17:43 (timezone America/New_York) with lowlighter/metrics@3.18.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
