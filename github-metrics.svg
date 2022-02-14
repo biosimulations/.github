@@ -388,7 +388,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                             <path fill-rule="evenodd" d="M2.343 13.657A8 8 0 1113.657 2.343 8 8 0 012.343 13.657zM6.03 4.97a.75.75 0 00-1.06 1.06L6.94 8 4.97 9.97a.75.75 0 101.06 1.06L8 9.06l1.97 1.97a.75.75 0 101.06-1.06L9.06 8l1.97-1.97a.75.75 0 10-1.06-1.06L8 6.94 6.03 4.97z"/>
                         </svg>
-                        API returned 429
+                        API returned 500 (NO_FCP)
                     </div>
                 </section>
             </div>
@@ -539,12 +539,12 @@
                     <h3>Commit activity per day of week</h3>
                     <div class="chart-bars">
                         <div class="entry">
-                            <span class="value">47</span>
-                            <div class="bar" style="height: 46.07843137254902px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                            <span class="value">46</span>
+                            <div class="bar" style="height: 44.230769230769226px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                             Sun
                         </div>
                         <div class="entry">
-                            <span class="value">51</span>
+                            <span class="value">52</span>
                             <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                             Mon
                         </div>
@@ -1094,7 +1094,7 @@
                 </div>
             </section>
             <footer>
-                <span>Last updated 14 Feb 2022, 09:09:09 (timezone America/New_York) with lowlighter/metrics@3.20.0</span>
+                <span>Last updated 14 Feb 2022, 10:10:34 (timezone America/New_York) with lowlighter/metrics@3.20.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
