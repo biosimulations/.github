@@ -443,8 +443,8 @@
                         05
                     </div>
                     <div class="entry">
-                        <span class="value"></span>
-                        <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                        <span class="value">1</span>
+                        <div class="bar" style="height: 2px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                         06
                     </div>
                     <div class="entry">
@@ -468,8 +468,8 @@
                         10
                     </div>
                     <div class="entry">
-                        <span class="value">1</span>
-                        <div class="bar" style="height: 2px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                        <span class="value"></span>
+                        <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                         11
                     </div>
                     <div class="entry">
@@ -539,13 +539,13 @@
                     <h3>Commit activity per day of week</h3>
                     <div class="chart-bars">
                         <div class="entry">
-                            <span class="value">66</span>
+                            <span class="value">65</span>
                             <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                             Sun
                         </div>
                         <div class="entry">
-                            <span class="value">29</span>
-                            <div class="bar" style="height: 21.96969696969697px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                            <span class="value">30</span>
+                            <div class="bar" style="height: 23.076923076923077px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                             Mon
                         </div>
                         <div class="entry">
@@ -1089,7 +1089,7 @@
                 </div>
             </section>
             <footer>
-                <span>Last updated 28 Feb 2022, 06:07:33 (timezone America/New_York) with lowlighter/metrics@3.21.0</span>
+                <span>Last updated 28 Feb 2022, 07:09:36 (timezone America/New_York) with lowlighter/metrics@3.21.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
